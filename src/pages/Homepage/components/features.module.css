@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    gap: 54px;
+    margin-top: 88px;
+    justify-content: center;
+}
+
+
+.title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C5F6A;
+    max-width: 272px;
+}

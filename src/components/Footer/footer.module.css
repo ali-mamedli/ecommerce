@@ -1,0 +1,139 @@
+.footerContainer{
+    width: 100%;
+    max-width: 1116px;
+    margin: 0 auto;
+    margin-top: 192px;
+}
+
+.topBlock{
+    display: flex;
+    justify-content: space-between;
+    padding: 59px 28px;
+    background: #F6F6F6;
+    align-items: center;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C5F6A;
+}
+
+.rightTopBlock{
+    display: flex;
+    gap: 16px;
+}
+
+.input{
+    width: 320px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #E6E7E8;
+}
+
+.input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    color: #878A92;
+}
+
+.btn{
+    background: #0E1422;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9.5px 24px;
+    cursor: pointer;
+}
+
+.centerBlock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}
+
+.left{
+    display: block;
+    
+}
+
+.leftImg{
+    margin-bottom: 12px;
+}
+
+.leftDescription{
+    width: 272px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C5F6A;
+    margin-bottom: 32px;
+}
+
+.bottom{
+    display: flex;
+    gap: 24px;
+}
+
+.middle{
+    display: flex;
+    gap: 72px;
+}
+
+.navBlock{
+    display: grid;
+}
+
+.navBlockTitle{
+    display: flex;
+    font-size: 14;
+    font-weight: 500;
+    color: #878A92;
+    margin-bottom: 40px;
+    gap: 99px;
+}
+
+.navBlockHref{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5F6A;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+
+.right{
+    display: block;
+}
+
+.rightTitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #878A92;
+    margin-bottom: 40px;
+}
+
+.rightImgBlock{
+    display: flex;
+    gap: 24px;
+}
+
+.bottomFooter{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C5F6A;
+    justify-content: center;
+    margin-top: 104px;
+    padding: 27px 0;
+    border-top: 1px solid #F6F6F6;
+}
